@@ -2,6 +2,7 @@ body{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .color{
@@ -32,6 +33,7 @@ body{
     /* inset 3px 3px 5px white, 
     inset -3px -3px 5px #ececec; */
     font-size: 108px;
+    font-family: 'Josefin Sans', sans-serif;
 
   }
 
