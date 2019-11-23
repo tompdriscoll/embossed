@@ -9,8 +9,9 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    height: max-content;
-    height: -webkit-fill-available;
+
+    padding: 45px;
+    
 }
 
 #white{
@@ -155,6 +156,35 @@ body{
 
 #tom4{
 color: cornflowerblue;
+text-shadow: 5px 5px 5px #4f75bd, 
+-3px -3px 8px #7fa4ea;
+}
+
+#aquamarine{
+  background: aquamarine;
+}
+
+.shape5{
+  height: 500px;
+  width: 500px;
+  animation: pop-out-dark 1.9s ease-in-out;
+  background: aquamarine;
+  box-shadow: 25px 25px 30px #57ce75, -8px -8px 25px #a6f7ce, inset 3px 3px 5px #97f9c7, inset -3px -3px 5px #5dd666;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#circle5{
+background: aquamarine;
+box-shadow: 25px 25px 30px #4f75bd, 
+-8px -8px 25px #7198e0, 
+inset 3px 3px 5px #7fa4ea, 
+inset -3px -3px 5px #4f75bd;
+}
+
+#tom5{
+color: aquamarine;
 text-shadow: 5px 5px 5px #4f75bd, 
 -3px -3px 8px #7fa4ea;
 }
