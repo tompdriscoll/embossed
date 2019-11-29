@@ -5,6 +5,10 @@ body{
     flex-direction: column;
 }
 
+#color-chooser{
+  position: fixed;
+}
+
 .color{
     display: flex;
     justify-content: space-around;
