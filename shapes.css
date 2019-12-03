@@ -13,6 +13,7 @@ body{
   top: 10vh;
   border-radius: 0 15px 15px 0;
   overflow: hidden;
+  left: -2;
 }
 
 .color-pick{
