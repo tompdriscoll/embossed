@@ -1,19 +1,36 @@
 document.getElementById('choose-white').addEventListener('click', function (){
-    console.log('hello')
+    hideCurrent()
+    showChosen('white')
 })
 
 document.getElementById('choose-black').addEventListener('click', function (){
-    console.log('hello')
+    hideCurrent()
+    showChosen('black')
 })
 
 document.getElementById('choose-salmon').addEventListener('click', function (){
-    console.log('hello')
+    hideCurrent()
+    showChosen('salmon')
 })
 
 document.getElementById('choose-cornflowerblue').addEventListener('click', function (){
-    console.log('hello')
+    hideCurrent()
+    showChosen('cornflowerblue')
 })
 
 document.getElementById('choose-aquamarine').addEventListener('click', function (){
-    console.log('hello')
+    hideCurrent()
+    showChosen('aquamarine')
 })
+
+let hideCurrent = function hideCurrent(){
+    let prev = document.getElementsByClassName('current')[0]
+    prev.classList.remove('current')
+    prev.classList.add('hidden')
+}
+
+let showChosen = function showChosen(color){
+    let curr = document.getElementById(color)
+     curr.classList.remove('hidden')
+     curr.classList.add('current')
+}
